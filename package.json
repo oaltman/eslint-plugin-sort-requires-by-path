@@ -1,0 +1,51 @@
+{
+  "name": "eslint-plugin-sort-requires-by-path",
+  "version": "1.0.0",
+  "description": "ESLint rule to enforce sorting of variable declarations in a group of require('path') calls by 'path' string",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rimraf dist && babel lib -d dist",
+    "lint": "eslint .",
+    "lint:watch": "esw -w",
+    "prepublish": "npm test && npm run build",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oaltman/eslint-plugin-sort-requires-by-path"
+  },
+  "keywords": [
+    "commonjs",
+    "eslint",
+    "eslint-plugin",
+    "eslint-plugin-sort",
+    "eslintplugin",
+    "require",
+    "sort-requires",
+    "sorting"
+  ],
+  "author": "Ondřej Altman <o1.altman@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kentor/eslint-plugin-sort-requires-by-path/issues"
+  },
+  "homepage": "https://github.com/kentor/eslint-plugin-sort-requires-by-path",
+  "devDependencies": {
+    "babel-cli": "6.16.0",
+    "babel-jest": "16.0.0",
+    "babel-preset-es2015": "6.16.0",
+    "eslint": "3.7.1",
+    "eslint-config-kentor": "3.6.1",
+    "eslint-watch": "2.1.14",
+    "jest": "16.0.1",
+    "rimraf": "2.5.4"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "dist",
+      "/node_modules/"
+    ],
+    "testRegex": "(/tests/.*?)|(/__tests__/.*?-test)\\.js$"
+  }
+}
