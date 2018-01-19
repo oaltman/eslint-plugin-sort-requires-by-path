@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-sort-requires-by-path",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESLint rule to enforce sorting of variable declarations in a group of require('path') calls by 'path' string",
   "main": "dist/index.js",
   "scripts": {
