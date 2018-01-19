@@ -28,9 +28,9 @@
   "author": "Ondřej Altman <o1.altman@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kentor/eslint-plugin-sort-requires-by-path/issues"
+    "url": "https://github.com/oaltman/eslint-plugin-sort-requires-by-path/issues"
   },
-  "homepage": "https://github.com/kentor/eslint-plugin-sort-requires-by-path",
+  "homepage": "https://github.com/oaltman/eslint-plugin-sort-requires-by-path",
   "devDependencies": {
     "babel-cli": "6.16.0",
     "babel-jest": "16.0.0",
